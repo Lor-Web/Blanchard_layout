@@ -1,0 +1,14 @@
+@media (min-width: 1430px) {
+/* HEADER */
+    .item-link:hover {
+        color: var(--hover);
+    }
+
+    .cabinet__login:hover {
+        color: var(--hover);
+    }
+
+    .cabinet__login:hover .login__ico path {
+        fill: var(--hover);
+    }
+}

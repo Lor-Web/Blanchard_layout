@@ -1,0 +1,30 @@
+/* HEADER */
+.item-link {
+    transition: color .1s ease-in-out;
+}
+
+.item-link:focus-within{
+    outline: 2px solid var(--focus);
+    outline-offset: 4px;
+}
+
+.item-link:active {
+    color: var(--active) !important;
+}
+
+.cabinet__login, .login__ico path {
+    transition: color .1s ease-in-out, fill .1s ease-in-out;
+}
+
+.cabinet__login:focus-within{
+    outline: 2px solid var(--focus);
+    outline-offset: 4px;
+}
+
+.cabinet__login:active {
+    color: var(--active) !important;
+}
+
+.cabinet__login:active .login__ico path{
+    fill: var(--active) !important;
+}
